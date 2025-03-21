@@ -1,0 +1,50 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/NefyraExo/app/src/main/java/n/nefyra/exo/VideoConfig.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 577,
+          "line": 23
+        },
+        "start": {
+          "column": 1,
+          "index": 577,
+          "line": 23
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/NefyraExo/app/src/main/java/n/nefyra/exo/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 6579,
+          "line": 171
+        },
+        "start": {
+          "column": 1,
+          "index": 6579,
+          "line": 171
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/NefyraExo/app/src/main/java/n/nefyra/exo/JsonUtil.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 1256,
+          "line": 37
+        },
+        "start": {
+          "column": 1,
+          "index": 1256,
+          "line": 37
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/NefyraExo/app/src/main/java/n/nefyra/exo/VideoConfig.kt"
+}

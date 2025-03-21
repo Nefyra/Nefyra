@@ -1,12 +1,12 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Nefyra/app/src/main/java/com/nefyra/exo/MainActivity.java",
+      "file": "/storage/emulated/0/AndroidIDEProjects/NefyraExo/app/src/main/AndroidManifest.xml",
       "selection": {
         "end": {
           "column": 0,
-          "index": 696,
-          "line": 27
+          "index": 0,
+          "line": 0
         },
         "start": {
           "column": 0,
@@ -16,5 +16,5 @@
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Nefyra/app/src/main/java/com/nefyra/exo/MainActivity.java"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/NefyraExo/app/src/main/AndroidManifest.xml"
 }

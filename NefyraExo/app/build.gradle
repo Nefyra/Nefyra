@@ -1,13 +1,15 @@
+
 plugins {
     id 'com.android.application'
+    id 'kotlin-android'
 }
 
 android {
-    namespace 'com.nefyra.exo'
+    namespace 'n.nefyra.exo'
     compileSdk 34
     
     defaultConfig {
-        applicationId "com.nefyra.exo"
+        applicationId "n.nefyra.exo"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -32,11 +34,20 @@ android {
 
     buildFeatures {
         viewBinding true
+        
     }
+    
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+  kotlinOptions {
+    jvmTarget = "11"
+  }
 }
 
 dependencies {
-    implementation "com.google.android.material:material:1.11.0" 
+
+implementation "com.google.android.material:material:1.11.0" 
     
     implementation "com.fasterxml.jackson.core:jackson-core:2.13.0"
     implementation "com.fasterxml.jackson.core:jackson-databind:2.13.3"
@@ -48,6 +59,7 @@ dependencies {
     implementation "androidx.media3:media3-exoplayer-dash:1.4.0"
     implementation "androidx.media3:media3-exoplayer-hls:1.4.0"
 
-    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.appcompat:appcompat:1.6.1")
 }
