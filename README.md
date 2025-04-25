@@ -14,8 +14,3 @@
   <tr>
     <td><img alt="" src="static/screenshot/Screenshot_2025-01-17-23-09-18-87_524941aa119e99821e8cb56956fc9330.jpg"></td>
   <tr>
-<<<<<<< HEAD
-</table>
-=======
-</table>
->>>>>>> origin/main
