@@ -1,16 +1,22 @@
 # Nefyra
-使用lua开发的轻量级番剧观看程序 使用相对复杂的规则进行html采集 无法对动态加载的html进行
+
+Nefyra 是一个使用 Lua 开发的轻量级番剧观看应用程序，支持高级网页内容采集和动态解析。
 
 ## 支持平台
 - Android 6 及以上
 
-## 屏幕截图 
+## 功能特性
+- 支持 XPath 语法规则进行网页内容采集
+- 已支持获取动态加载的 HTML 内容
+- 自动解析视频资源（功能正在测试中）
+- 双弹幕源：bilibili 与 dandanplay
+- 垃圾弹幕处理功能（暂不支持编辑）
+
+## 屏幕截图
 <table>
   <tr>
-    <td><img alt="" src="static/screenshot/Screenshot_2025-01-17-23-13-22-00_524941aa119e99821e8cb56956fc9330.jpg"></td>
-    <td><img alt="" src="static/screenshot/Screenshot_2025-01-17-23-10-43-51_524941aa119e99821e8cb56956fc9330.jpg"></td>
-    <td><img alt="" src="static/screenshot/Screenshot_2025-01-17-23-09-27-09_524941aa119e99821e8cb56956fc9330.jpg"></td>
-  <tr>
-  <tr>
-    <td><img alt="" src="static/screenshot/Screenshot_2025-01-17-23-09-18-87_524941aa119e99821e8cb56956fc9330.jpg"></td>
-  <tr>
+    <td><img alt="播放器页面" src="static/screenshot/Screenshot_2025-10-04-18-44-22-14_524941aa119e99821e8cb56956fc9330.jpg"></td>
+    <td><img alt="规则编辑页面" src="static/screenshot/Screenshot_2025-10-04-18-39-36-88_524941aa119e99821e8cb56956fc9330.jpg"></td>
+    <td><img alt="主页截图" src="static/screenshot/Screenshot_2025-10-04-18-39-16-46_524941aa119e99821e8cb56956fc9330.jpg"></td>
+  </tr>
+</table>
